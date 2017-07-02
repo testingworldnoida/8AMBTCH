@@ -7,7 +7,7 @@ public class LoginPage {
 	ChromeDriver driver;
 	public LoginPage(ChromeDriver driver)
 	{
-		this.driver=driver;
+		this.driver=this.driver;
 	}
 	
 	public void enterUsername( String uname)
